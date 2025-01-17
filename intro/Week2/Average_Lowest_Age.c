@@ -18,8 +18,8 @@ int main(){
         }
     }
     //print the average age
-    float average = sum / amount;
-    printf("The average age is: %.1f\n", average);
+    float average = (float)sum / amount;
+    printf("The average age is: %.2f\n", average);
 
     //print the smallest age
     printf("The youngest age is: %d\n", min);
