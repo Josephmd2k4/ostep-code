@@ -10,5 +10,6 @@ int main(){
 
     for (int i = 0; i < sizeof(myNumbers) / sizeof(myNumbers[0]); i++){
         printf("Element %d: %d\n", i, myNumbers[i]);
+        printf("Element %d: %d\n", i, *(myNumbers + i));
     }
 }
